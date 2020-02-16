@@ -4,10 +4,13 @@ spring:
   main:
     allow-bean-definition-overriding: true
 dubbo:
+  provider:
+    loadbalance:
   scan:
     base-packages: io.ouka.dubbo.provider.service
   protocol:
     name: dubbo
     port: -1
+    serialization: kryo
   registry:
     address: nacos://192.168.206.131:8848

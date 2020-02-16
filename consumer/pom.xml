@@ -71,6 +71,11 @@
             <groupId>com.alibaba.spring</groupId>
             <artifactId>spring-context-support</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-serialization-kryo</artifactId>
+        </dependency>
         <!-- Apache Dubbo End -->
         <!-- Projects Begin -->
         <dependency>
@@ -79,6 +84,12 @@
             <version>${project.parent.version}</version>
         </dependency>
         <!-- Projects End -->
+
+        <!--Springcloud alibaba-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-nacos-config</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

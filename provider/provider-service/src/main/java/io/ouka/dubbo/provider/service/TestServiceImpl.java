@@ -9,7 +9,7 @@ import org.apache.dubbo.config.annotation.Service;
  * Date: 2020-02-15
  * Time: 22:09
  */
-@Service(version = "1.0.0")
+@Service(version = "0.0.1")
 public class TestServiceImpl implements TestService {
     @Override
     public String test(String str) {
